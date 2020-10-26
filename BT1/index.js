@@ -32,7 +32,6 @@ function xoa(id) {
 function loadm(Array) {
     let temp = `
     <div id="` + i + `" class="in">
-    <input onclick="check()" class ="checkbox" type="checkbox"/>
     <p class="data">` + Array + `</p>
     <button class="xoa" id="` + i + `" onclick="xoa(this.id)">Delete
     </button>
